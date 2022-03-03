@@ -63,4 +63,3 @@ repos:
     args: [--show-error-codes, --pretty]
     files: ^dbt/
     language: system
-

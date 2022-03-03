@@ -219,7 +219,7 @@ jobs:
 
   post-failure:
     runs-on: ubuntu-latest
-    needs: test 
+    needs: test
     if: ${{ failure() }}
 
     steps:
